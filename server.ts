@@ -1,15 +1,15 @@
 import express from "express";
 import path from "path";
 import dotenv from "dotenv";
-import { fileURLToPath } from "url";
+import path from "path";
 import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 
 dotenv.config();
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
+
+const __dirname = process.cwd();
 const app = express();
 app.use(express.json());
 
