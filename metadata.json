@@ -1,0 +1,6 @@
+{
+  "name": "AgriVoice AI",
+  "description": "Futuristic voice-activated agricultural assistant with real-time AI guidance in native farming languages, rich visualizations, and dynamic climate animations.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
